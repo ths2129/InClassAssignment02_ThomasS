@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    tools:context=".LinearActivity"
+    android:background="@color/yellow1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/birthday"
+        android:textColor="@color/purple1"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/blue2"
+        android:textStyle="bold"
+        android:text="@string/to_you"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Display"
+            android:textSize="12sp"
+            android:background="@color/blue1"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/gift"
+            android:textSize="12sp"
+            android:background="@color/orange1"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/location"
+            android:textSize="12sp"
+            android:background="@color/blue1"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>

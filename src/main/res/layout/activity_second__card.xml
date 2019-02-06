@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Card"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:id="@+id/birthday"
+        android:text="@string/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue1"
+        android:background="@color/yellow2"/>
+
+    <TextView
+        android:id="@+id/to_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/birthday"
+        android:background="@color/yellow2"
+        android:text="@string/to_you"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/purple1"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday"
+        android:layout_below="@id/to_you"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/olick1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/guests"
+        android:background="@color/orange1" />
+
+        <Button
+            android:id="@+id/click2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/olick1"
+            android:background="@color/yellow1"
+            android:text="@string/gift"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/click2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/location"
+        android:background="@color/yellow2"/>
+
+</RelativeLayout>

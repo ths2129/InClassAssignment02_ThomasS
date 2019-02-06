@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+<string name="app_name">inclassassignnment02_thomass</string>
+<string name="birthday">Happy Birthday</string>
+<string name="gift">Gifts</string>
+<string name="location">Location</string>
+<string name="to_you">To you!</string>
+    <string name="guests">Guests</string>
+<string name="title_activity_relative_layout">relative_layout</string>
+<string name="title_activity_2">Activity2</string>
+
+</resources>
